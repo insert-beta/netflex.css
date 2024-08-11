@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+section{
+    background-image: url("img\ 02.webp");
+    background-size: cover;
+    height: 120%;
+    width: 140vh;;
+    backdrop-filter:blur(100px);
+
+}
+#container{
+    width: 1130px;
+    height: 100px;
+   display: flex;
+   justify-content:space-between;
+   margin: 50px;
+   padding: 15px;
+   align-items: center;
+}
+#img1{
+    width: 150px;
+    height: 130px;
+}
+#box1{
+    width: 100px;
+    border-radius :20px; 
+    height: 50px;
+    background-color: red;
+    color: azure;
+    margin: top 12px; 
+    margin-bottom: 12px;
+}
+#box1:hover{
+    background-color: black;
+    color: aliceblue;
+    border-color: blue;
+}
+#main{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 1200px;
+    height: 600px;
+    color: azure;
+    align-items: center;
+    line-height: 17px;
+    box-shadow:12px 15px 15px 15px rgb(139, 139, 132); ;
+    margin-left: 25px;
+
+}
+#box2{
+    font-size: 27px;
+}
+#box3{
+    font-size: 24px;
+
+}
+#box4{
+    font-size: 20px;
+}
+
+input{
+    width: 33vh;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color:#26090C ;
+    color:white;
+    border-color: white;
+    font-weight: 1000;
+}
+button{
+    width: 17.5vh;
+    height: 47px;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 20px gray;
+    color: white;
+}
+button:hover{
+    background-color: black;
+    border-color: blue;
+}
+input:hover{
+    background-color: black;
+    border-color: blue;
+}
+#main2{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-end: 29px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 25px;
+
+
+    box-shadow: 25px 2px 25px 2px rgb(194, 194, 166);
+}
+
+
+#box6{
+   color: white;
+   font-size: 30px;
+
+   
+}
+#box7{
+  /* color: white;
+ align-self: flex-end;
+ margin-right: 95px;
+ padding-right: 29px;
+ font-size: 5px;  */
+}
+#box8{
+    width: 500px;
+    height: 400px;
+    z-index: -5;
+   
+}
+#box8:hover{
+    background-image: url("ayan.jpg");
+background-size: auto;
+}
+#box10{
+    /* border: 2px solid white; */
+    box-shadow:25px 2px 25px 2px rgb(194, 194, 166);
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box11{
+    color: white;
+}
+#box12{
+    align-self: center;
+    
+}
